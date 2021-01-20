@@ -88,8 +88,8 @@ fitted.groupBy('prediction').agg(F.mean("latitude").alias("mean_lati")).show()
 fitted.createOrReplaceTempView("fittedSQL")
 
 spark.sql("""
-#select prediction , mean(latitude) as mean_lati from fittedSQL 
-#group by prediction
+select prediction , mean(latitude) as mean_lati from fittedSQL 
+group by prediction
 
 """).show()
 
@@ -101,8 +101,8 @@ fitted.groupBy('prediction').agg(F.mean("longitude").alias("mean_longi")).show()
 # SQL
 # longitude moyenne
 spark.sql("""
-#select prediction , mean(longitude) as mean_longi from fittedSQL 
-#group by prediction
+select prediction , mean(longitude) as mean_longi from fittedSQL 
+group by prediction
 
 """).show()
 
