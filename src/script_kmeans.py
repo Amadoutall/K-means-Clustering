@@ -5,6 +5,7 @@ Created on Wed Jan 20 18:33:42 2021
 @author: Amadou tall, Régis Aymar Bambou
 """
 
+# Importation des packages
 import findspark
 import configparser
 import folium  
@@ -20,12 +21,13 @@ from pyspark.sql import SparkSession, functions as F
 spark = SparkSession.builder.master("local").appName("Brisbane_city_bike").getOrCreate()
 
 
-#
+# Instaciation ConfigParser
 config = configparser.ConfigParser()
+
+# Création du fichier propreties.config
 #config.write(open('propreties.config','w'))
 """
-###
-
+# Cobfiguration du fichier propreties.conf
 config.add_section('Bristol-City-bike')
 config.set('Bristol-City-bike','Input-data','data/Bristol-city-bike.json')
 config.set('Bristol-City-bike','Output-data','exported/')
@@ -34,13 +36,11 @@ config.write(open('propreties.config','w'))
 
 
 """
-##
+# lire le fichier propreties
 config.read('propreties.config')
 
-
+# affichage des items
 print(config.items('Bristol-City-bike'))
-
-print(config.sections())
 
 # Print all contents. Also save into a dictionary
 configuration = {}
