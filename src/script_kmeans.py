@@ -23,7 +23,7 @@ spark = SparkSession.builder.master("local").appName("Brisbane_city_bike").getOr
 #
 config = configparser.ConfigParser()
 #config.write(open('propreties.config','w'))
-
+"""
 ###
 
 config.add_section('Bristol-City-bike')
@@ -33,7 +33,7 @@ config.set('Bristol-City-bike','Kmeans-level','3')
 config.write(open('propreties.config','w'))
 
 
-
+"""
 ##
 config.read('propreties.config')
 
