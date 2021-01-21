@@ -2,7 +2,7 @@
 """
 Created on Wed Jan 20 18:33:42 2021
 
-@author: Amadou tall
+@author: Amadou tall, Régis Aymar Bambou
 """
 
 import findspark
