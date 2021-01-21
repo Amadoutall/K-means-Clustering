@@ -121,6 +121,6 @@ folium.Marker(c3_coords,popup='classe3').add_to(my_map)
 
 my_map
 
-fitted.drop("features").write.save(path_to_output_data + 'base.json',format='json')
+fitted.drop("features").write.save(path_to_output_data + 'base')
 
 spark.stop()
