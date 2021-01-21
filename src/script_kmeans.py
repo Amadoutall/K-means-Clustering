@@ -26,16 +26,15 @@ config = configparser.ConfigParser()
 
 # Création du fichier propreties.config
 #config.write(open('propreties.config','w'))
-"""
+
 # Cobfiguration du fichier propreties.conf
 config.add_section('Bristol-City-bike')
-config.set('Bristol-City-bike','Input-data','data/Bristol-city-bike.json')
-config.set('Bristol-City-bike','Output-data','exported/')
+config.set('Bristol-City-bike','Input-data','../data/Bristol-city-bike.json')
+config.set('Bristol-City-bike','Output-data','../exported/')
 config.set('Bristol-City-bike','Kmeans-level','3')
 config.write(open('propreties.config','w'))
 
 
-"""
 # lire le fichier propreties
 config.read('propreties.config')
 
