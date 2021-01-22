@@ -19,7 +19,7 @@ Notre jeu de données est constitué des variables suivantes :
 - open terminal
 - git clone https://github.com/Amadoutall/K-means-Clustering.git
 - open jupyter
-- exécute src/script.ipynb
+- exécute src/script1.ipynb
 
 Afin de trouver les k-means nous décidons de garder uniquement les variables longitude ainsi que latitude. D’où le mapping ci-dessous.
 
