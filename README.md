@@ -14,4 +14,11 @@ Notre jeu de données est constitué des variables suivantes :
 - name : le numéro plus l'adresse ;
 - number : le numéro ou l’identifiant  attribué à chaque vélo
 
+
+## EXÉCUTION DU CODE :
+- open terminal
+- git clone https://github.com/Amadoutall/K-means-Clustering.git
+- open jupyter
+- exécute src/script.ipynb
+
 Afin de trouver les k-means nous décidons de garder uniquement les variables longitude ainsi que latitude. D’où le mapping ci-dessous.
