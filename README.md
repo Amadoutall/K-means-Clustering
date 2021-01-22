@@ -1,3 +1,6 @@
+### @author: Amadou tall, Régis Aymar Bambou
+
+----------------------------------------------
 # Projet Outils Big Data : BRISBANE City Bike
 
 En effet, le jeu de données que nous avons utilisé pour réaliser ce travail provient de données des stations vélos dans la ville BRISBANE.
