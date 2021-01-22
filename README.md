@@ -3,7 +3,7 @@
 En effet, le jeu de données que nous avons utilisé pour réaliser ce travail provient de données des stations vélos dans la ville BRISBANE.
 La ville de Brisbane est composée de 149 vélos. Il était question pour nous de trouver un moyen adéquat afin de classifier ces vélos dans des groupes (classes) différents.
 
-Ainsi, l'objectif général de ce travail est de réaliser un Clustering à l’aide de méthode de k-Means et aussi cartographier l'emplacement des stations vélos en utilisant Spark. Le jeu de données contient des informations concernant l’emplacement de chaque vélo est disponible dans le fichier nommé Base.  
+Ainsi, l'objectif général de ce travail est de réaliser un Clustering à l’aide de méthode de k-Means et aussi cartographier l'emplacement des stations vélos en utilisant Spark. Le jeu de données contient des informations concernant l’emplacement de chaque vélo est disponible dans le fichier nommé data.  
 
 ## Présentation des Variables
 Notre jeu de données est constitué des variables suivantes :
