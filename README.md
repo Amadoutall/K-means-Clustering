@@ -23,3 +23,4 @@ Notre jeu de données est constitué des variables suivantes :
 
 Afin de trouver les k-means nous décidons de garder uniquement les variables longitude ainsi que latitude. D’où le mapping ci-dessous.
 ![](images/carte.jpeg)
+ 
